@@ -1,30 +1,6 @@
-<!--
- * @Author: your name
- * @Date: 2021-06-10 10:15:28
- * @LastEditTime: 2021-07-22 13:50:15
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
- * @FilePath: /Dev/addcn-open/im-docker/README.md
--->
-```
- ___ __  __    ____ _           _   
-|_ _|  \/  |  / ___| |__   __ _| |_ 
- | || |\/| | | |   | '_ \ / _` | __|
- | || |  | | | |___| | | | (_| | |_ 
-|___|_|  |_|  \____|_| |_|\__,_|\__|
-                                    
-  The open source im chat for teams                `'
-  (c) 2021 ADDCN SA
-  https://www.im.com
-```
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/0de4eaf7426944769a70a2d727a9012b)](https://)
-[![Docker Pulls](https://img.shields.io/docker/pulls/passbolt/passbolt.svg?style=flat-square)](https://)
-[![GitHub release](https://img.shields.io/github/release/passbolt/passbolt_docker.svg?style=flat-square)](https://)
-[![license](https://img.shields.io/github/license/passbolt/passbolt_docker.svg?style=flat-square)](https://)
+# 鸿雁及时通讯是什么?
 
-# What is 鸿雁及时通讯?
-
-这是一个及时通讯解决方案
+数睿鸿雁，是一款企业级正式版即时通讯软件。基于Gatewayworker+LaravelS实现，兼具稳定的网络通信、动态扩容缩容、业务快速集成特点。在业务生产实践中，我们不断丰富鸿雁功能，打磨细节，提升其稳定性与可扩展性。现正式开源鸿雁，回馈开源社区，共享技术成果。
 
 # Requirements
 
