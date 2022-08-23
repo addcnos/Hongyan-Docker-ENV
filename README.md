@@ -1,8 +1,9 @@
 ## 鸿雁Docker ENV
-![LICENSE](https://img.shields.io/badge/license-MIT-green)
+![LICENSE](https://img.shields.io/badge/License-MIT-orange)
 ![Language](https://img.shields.io/badge/Language-shell-blue.svg)
+![Stable](https://img.shields.io/badge/Stable-v1.0.0-brightgreen.svg)
 
-集成hongyan所需环境依赖，一键安装体验
+集成Hongyan所需环境依赖，一键安装体验
 
 #### 环境依赖
 
