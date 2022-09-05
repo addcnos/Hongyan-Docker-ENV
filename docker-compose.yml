@@ -1,0 +1,31 @@
+version: '3.4'
+services:
+  db:
+    image: mariadb:10.3
+    env_file:
+      - env/mysql.env
+    volumes:
+      - database_volume:/var/lib/mysql
+    ports:
+      - "127.0.0.1:3306:3306"
+
+  redis:
+    image: redis:5
+    ports:
+      - "127.0.0.1:6379:6379"
+
+  im:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    pull_policy: always
+    tty: true
+    depends_on:
+      - db
+    ports:
+      - 5204:5204
+      - 1215:1215
+      - 1216:1216
+
+volumes:
+  database_volume:
